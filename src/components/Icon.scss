@@ -1,0 +1,18 @@
+@import '../styles/variables';
+
+img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+
+}
+
+.Icon {
+  background: $white;
+  position:relative;
+  top:10px;
+  left:220px;
+  width: 975px;
+  height: 150px;
+}

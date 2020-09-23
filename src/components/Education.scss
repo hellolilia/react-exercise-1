@@ -6,34 +6,29 @@ ul {
   padding: 20px;
 }
 
-th {
-  font-family: $font-family;
-  font-size: 1.5em;
-  line-height: 20px;
+.education {
+  padding-left: 20px;
+  padding-top: 5px;
+  li {
+    display: flex;
+  }
+}
+
+.years {
+  width: 9%;
+}
+
+.events {
+  width: 91%;
+  background: $gray;
+  margin: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 1.05em;
 }
 
 h4 {
-  font-family: $font-family;
-  font-size: 1.5em;
-  line-height: 20px;
-}
-
-.Education {
-  position:relative;
-  top:0px;
-  left:220px;
-  width: 900px;
-  height: 400px;
-  background: $white;
-  padding-top: 17px;
-  padding-left: 35px;
-  padding-bottom: 0px;
-  padding-right: 40px;
-}
-
-.Education td {
-  position:relative;
-  left:35px;
-  background: $gray;
-  padding-left: 10px;
+    font-family: $font-family;
+    font-size: 1.6em;
+    line-height: 10px;
 }

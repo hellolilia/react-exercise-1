@@ -3,7 +3,7 @@ import './AboutMe.scss';
 
 function AboutMe() {
   return (
-    <div className="AboutMe">
+    <div className="aboutMe">
       <h3>ABOUT ME</h3>
       <p>
         Lorem ipsum dolor sit amet consectetuer adipiscing elit. Repellendus,

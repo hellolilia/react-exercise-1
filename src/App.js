@@ -8,14 +8,14 @@ import Education from './components/Education';
 class App extends Component {
   render() {
     return (
-      <main className="App">
+      <main className="app">
         <Icon />
         <Title />
+        <hr />
         <AboutMe />
         <Education />
       </main>
     );
-    // <main className="app">start here</main>;
   }
 }
 
